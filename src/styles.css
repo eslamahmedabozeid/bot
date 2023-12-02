@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+
+#reload_proudact::after {
+    content: "";
+    width: 55px;
+    height: 41px;
+    position: fixed;
+    left: 47.5%;
+    top: 46%;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+div#reload_proudact {
+    width: 100%;
+    height: 1000%;
+    position: absolute;
+    z-index: 9999;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    top: 0;
+    overflow: hidden;
+}
+
+#loading {
+    position: fixed;
+    transition: 1s ease-in-out;
+    margin: 100px auto;
+}
+
+#reload::after {
+    content: "";
+    width: 55px;
+    height: 41px;
+    position: fixed;
+    left: 47.5%;
+    top: 46%;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+div#reload {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    top: 0;
+    overflow: hidden;
+}
+
+#loading {
+    position: fixed;
+    transition: 1s ease-in-out;
+    margin: 0;
+    width: 25%;
+    overflow: hidden;
+}
+
+@media(max-width:787px) {
+    #loading {
+        position: fixed;
+        top: 18%;
+        left: 0 !important;
+        transition: 1s ease-in-out;
+        width: 100%;
+    }
+}

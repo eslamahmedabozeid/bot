@@ -1,0 +1,41 @@
+<h2>{{title}}</h2>
+<table class="table table-dark">
+
+    <tr>
+        <th>Name</th>
+        <td>{{datas?.firstName}}</td>
+    </tr>
+    <tr>
+        <th>Cognome</th>
+        <td>{{datas?.lastName}}</td>
+    </tr>
+    <tr>
+        <th>Email</th>
+        <td>{{datas?.email}}</td>
+    </tr>
+    <tr>
+        <th>Telefono</th>
+        <td>{{datas?.phone}}</td>
+    </tr>
+    <tr>
+        <th>macAddress</th>
+        <td>{{datas?.macAddress}}</td>
+    </tr>
+    <tr>
+        <th>height</th>
+        <td>{{datas?.height}}</td>
+    </tr>
+    <tr>
+        <th>age</th>
+        <td>{{datas?.age}}</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="text-center">
+                <button (click)="backToUsers()" class="btn btn-primary">Back</button>
+                <button (click)="editeToUsers()" class="btn btn-success">edit</button>
+
+            </td>
+        </tr>
+    </tfoot>
+</table>
