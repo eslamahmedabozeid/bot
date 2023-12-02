@@ -3,6 +3,16 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15
 ## Development server
 
+when you need login like admin
+admin@admin.com
+password:any password
+
+if you need login like user get any email and password from this api 
+i use api https://dummyjson.com/users/
+
+
+
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
